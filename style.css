@@ -77,11 +77,51 @@ input[type="range"] {
     cursor: pointer;
 }
 
-@media (max-width: 750px) and (min-width: 250px) {
+@media (max-width: 750px) and (min-width: 460px) {
+
+    .col1 {
+        display: none;
+    }
 
     .col2,
     .col4 {
         display: none;
     }
 
+    .col3 {
+        margin: 0;
+    }
+
+    input[type="range"] {
+        width: 15rem;
+    }
+
+}
+
+@media (max-width:420px) {
+
+    .col1 {
+        display: none;
+    }
+
+    .col2,
+    .col4 {
+        display: none;
+    }
+
+    .col3 {
+        margin: 0;
+    }
+
+    input[type="range"] {
+        width: 15rem;
+    }
+
+    .cover-img {
+        width: 10rem;
+    }
+
+    .num {
+        display: none;
+    }
 }
